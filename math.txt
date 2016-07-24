@@ -1,0 +1,28 @@
+### AC Zero Cross Optocoupler Series Resistors Math
+```
+Peak voltage experienced:
+  Vpeak = 120 * sqrt(2)
+  Vpeak = 169
+
+Lowest Resistors for PS2815
+  Vsrc - Vfwd / R = Ifwd
+  170 - 1.4 / R = .05
+  R = 3372 Minimum (Sketchy McSketchyFace)
+  
+Highest Resistors for PS2815
+  Vsrc - Vfwd / R = Ifwd
+  170 - 1.15 / R = .005
+  R = 33770 Maximum (Only trips at peaks?)
+  
+Max Current at 20000 Resistance
+  170 - 1.15 / 20000 = Ifwd
+  Ifwd = .008
+  
+Reistance for 50% of maximum Ifwd
+  170 - 1.15 / R = .025
+  R = 6754
+  
+Resistance for 80% of maximum Ifwd
+  170 - 1.15 / R = .04
+  R = 4221.25
+```
