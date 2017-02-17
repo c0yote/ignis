@@ -1,0 +1,9 @@
+https://www.youtube.com/watch?v=ztXRjyCQxlE
+http://electronics.stackexchange.com/questions/41938/230v-ac-to-5v-dc-converter-lossless
+
+Add a manufacturing note that the design is assuming a 2 oz/ft2 trace
+
+Update Notes:
+1. Consider Changing P? from a screw 
+terminal to a dedicated thermocouple 
+connector like a PCC-SMP-K.
