@@ -3,9 +3,9 @@
   (general
     (links 96)
     (no_connects 1)
-    (area 0 0 0 0)
+    (area 117 62 197.25 134.9)
     (thickness 1.6)
-    (drawings 2)
+    (drawings 6)
     (tracks 341)
     (zones 0)
     (modules 43)
@@ -64,7 +64,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory plot/))
   )
 
   (net 0 "")
@@ -1448,6 +1448,10 @@
     )
   )
 
+  (gr_line (start 117 128) (end 117 62) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 185 128) (end 117 128) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 185 62) (end 185 128) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 117 62) (end 185 62) (angle 90) (layer Edge.Cuts) (width 0.15))
   (dimension 68 (width 0.3) (layer Cmts.User)
     (gr_text "68.000 mm" (at 151 133.549999) (layer Cmts.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
